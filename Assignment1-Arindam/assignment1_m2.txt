@@ -1,0 +1,8 @@
+Milestone - 2
+
+1) match(n) where n.entity_type = 'class' with n match(n)-[]-(m:MethodDeclaration) where m.isConstructor = 'True' and m.modifiers =~ '.*private.*' with n match(n)-[]-(m:FieldDeclaration)-[r:type]-(l:SimpleType) where m.modifiers =~ '.*static.*' and m.modifiers =~ '.*private.*' n.simplename = l.name return n
+
+
+2) match(m)-[r]-(n) where m.entity_type = 'class' and n.simplename = 'facade' return m
+
+3) match(m)-[r]-(n) where m.entity_type = 'class' and n.simplename = 'builder' return m

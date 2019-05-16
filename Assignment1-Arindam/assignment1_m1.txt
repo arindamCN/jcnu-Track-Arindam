@@ -1,0 +1,30 @@
+Milestone - 1
+
+1) match(n) where n.entity_type IN ['class', 'interface'] return n 
+
+2) match(n:PackageDeclaration)-[]-(m:TypeDeclaration) where m.entity_type IN ['class'] return n,m
+
+3) match(n)-[r:DEFINE]-(ans:MethodDeclaration) where n.entity_type IN ['class'] return n,ans
+
+4) match(n)-[*..7]-(m) return n,m limit 40
+
+5) match(n:IfStatement)-[r:condition]-() with n,count(r) as cnt where cnt=0 return n
+
+6) match(n:IfStatement)-[r:condition]-() with n,count(r) as cnt where cnt>0 return n
+
+7) match(n)-[r:CONTAIN_IN]-(m) where n.entity_type = 'class' and n.simplename = 'Producer' return m.longname
+
+8) match(n) where n.entity_type IN ['class'] return n,n.SumCyclomatic
+
+9) match(n:MethodDeclaration) where toInt(n.CountStmt) >= (10) return n
+
+10) match(n:MethodDeclaration)-[r:parameter]-() with n, count(r) as num where num >= (4) return n
+
+11) match(n:MethodDeclaration) where toInt(n.CountLineCode) >= (50) return n
+
+12) match(n) where n.entity_type = 'class' return n,n.PercentLackOfCohesion
+
+13) match(n:TypeDeclaration),(m:CFG_EXIT_NODE) return shortestPath((n)-[*]->(m)) limit 100
+
+14) MATCH (n) WHERE EXISTS(n.file) RETURN DISTINCT "node" as element, n.file AS file LIMIT 25
+
