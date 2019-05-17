@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-python3 manage.py makemigrations
-python3 manage.py migrate
-python3 manage.py runserver 0:8000
+neo4j-community-3.5.5/bin/neo4j start
+python3 manage.py install_labels
+python3 manage.py runserver 0.0.0.0:8000
