@@ -1,0 +1,514 @@
+
+<!doctype html>
+<!--[if IE 9]>
+<html class="no-js ie9" lang="en"> <![endif]-->
+<html class="no-js" lang="en">
+<head>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WK23PSS');</script>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="msvalidate.01" content="B5163518CBE4A854B63801277FE5E35C" />
+    <meta name="google-site-verification" content="ucqagxjVuq0lJZeLKs0F5AppzK111lNt3IoxU6mzlJE" />    
+    <link rel="shortcut icon" href="https://neo4j.com/wp-content/themes/neo4jweb/favicon.ico" />
+
+    <link type="text/css" media="all" href="https://neo4j.com/wp-content/cache/autoptimize/css/autoptimize_273eb9a32e2c4f04ec76bcbaf7430d37.css" rel="stylesheet" /><link type="text/css" media="screen" href="https://neo4j.com/wp-content/cache/autoptimize/css/autoptimize_9d54a2bedf92ab0965083e876459d958.css" rel="stylesheet" /><title>Get Neo4j Desktop - Neo4j Graph Database Platform</title>
+
+<!-- Page hiding snippet  -->
+  <style>.async-hide { opacity: 0 !important} </style>
+  <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+    })(window,document.documentElement,'async-hide','dataLayer',4000, {'GTM-PNLTLM5':true});
+  </script>
+
+  <!-- Google Universal Tracker -->
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    //Allow Linker
+    ga('create', 'UA-1192232-34','auto', {'allowLinker': true});
+    //Optimize snippet
+    ga('require', 'GTM-PNLTLM5');
+    ga('send', 'pageview');
+    // Load the plugin.
+    ga('require', 'linker');
+    // Define which domains to autoLink.
+    ga('linker:autoLink', ['neo4j.org','neo4j.com','neotechnology.com','graphdatabases.com','graphconnect.com']);
+    // Capture user agent
+    ga('set', 'dimension6', escape(navigator.userAgent));
+  </script>
+  <!-- End Google Universal Tracker -->
+
+
+<!-- Pingdom RUM testing -->
+  <script>
+    var _prum = [['id', '56c4c51eabe53da82429d2ab'],
+             ['mark', 'firstbyte', (new Date()).getTime()]];
+    (function() {
+      var s = document.getElementsByTagName('script')[0]
+        , p = document.createElement('script');
+      p.async = 'async';
+      p.src = '//rum-static.pingdom.net/prum.min.js';
+      s.parentNode.insertBefore(p, s);
+    })();
+  </script>
+<!-- / yo ho ho -->
+
+
+  
+<!-- This site is optimized with the Yoast SEO Premium plugin v11.1.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="noindex,nofollow"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Get Neo4j Desktop - Neo4j Graph Database Platform" />
+<meta property="og:description" content="Get Started Now Please fill out this form to begin your download &nbsp;" />
+<meta property="og:url" content="https://neo4j.com/download/neo4j-desktop/" />
+<meta property="og:site_name" content="Neo4j Graph Database Platform" />
+<meta property="article:publisher" content="https://www.facebook.com/neo4j.graph.database" />
+<meta property="og:image" content="https://go.neo4j.com/rs/710-RRC-335/images/neo4j_logo_globe.png" />
+<meta property="og:image:secure_url" content="https://go.neo4j.com/rs/710-RRC-335/images/neo4j_logo_globe.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Get Started Now Please fill out this form to begin your download &nbsp;" />
+<meta name="twitter:title" content="Get Neo4j Desktop - Neo4j Graph Database Platform" />
+<meta name="twitter:site" content="@neo4j" />
+<meta name="twitter:image" content="https://go.neo4j.com/rs/710-RRC-335/images/neo4j_logo_globe.png" />
+<meta name="twitter:creator" content="@neo4j" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://neo4j.com/#organization","name":"Neo4j","url":"https://neo4j.com/","sameAs":["https://www.facebook.com/neo4j.graph.database","http://instagram.com/neo4j","https://www.linkedin.com/company/neo4j","https://www.youtube.com/neo4j","https://www.pinterest.com/neo4j/","https://twitter.com/neo4j"],"logo":{"@type":"ImageObject","@id":"https://neo4j.com/#logo","url":"https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/20140926224303/neo4j_logo-facebook.png","width":1120,"height":584,"caption":"Neo4j"},"image":{"@id":"https://neo4j.com/#logo"}},{"@type":"WebSite","@id":"https://neo4j.com/#website","url":"https://neo4j.com/","name":"Neo4j Graph Database Platform","publisher":{"@id":"https://neo4j.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://neo4j.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://neo4j.com/download/neo4j-desktop/#webpage","url":"https://neo4j.com/download/neo4j-desktop/","inLanguage":"en-US","name":"Get Neo4j Desktop - Neo4j Graph Database Platform","isPartOf":{"@id":"https://neo4j.com/#website"},"datePublished":"2017-10-23T23:17:04+00:00","dateModified":"2019-05-02T13:51:51+00:00"}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+
+
+
+
+<link rel='stylesheet' id='dashicons-css'  href='https://neo4j.com/wp-includes/css/dashicons.min.css?ver=5.2' type='text/css' media='all' />
+
+
+
+
+<script type='text/javascript' src='https://neo4j.com/wp-content/themes/neo4jweb/assets/js/vendor/jquery-3.3.1.min.js?ver=3.3.1'></script>
+<script type='text/javascript' src='https://neo4j.com/wp-content/themes/neo4jweb/assets/js/vendor/jquery-migrate-3.0.0.min.js?ver=3.0.0'></script>
+<link rel='https://api.w.org/' href='https://neo4j.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://neo4j.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://neo4j.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2" />
+<link rel='shortlink' href='https://neo4j.com/?p=71513' />
+<link rel="alternate" type="application/json+oembed" href="https://neo4j.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fneo4j.com%2Fdownload%2Fneo4j-desktop%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://neo4j.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fneo4j.com%2Fdownload%2Fneo4j-desktop%2F&#038;format=xml" />
+<meta class="swiftype" name="published_at" data-type="date" content="2017-10-23T16:17:04-07:00" /><style type="text/css">/** Mega Menu CSS: fs **/</style>
+  
+
+      <meta class="swiftype" name="neo4j-site" data-type="enum" content="Main Site" />
+    <meta class="swiftype" name="main-search-priority" data-type="integer" content="3" />
+  
+</head>
+<body class="page-template page-template-page-inner-100-blue page-template-page-inner-100-blue-php page page-id-71513 page-child parent-pageid-70959 mega-menu-menu-1 mega-menu-menu-2">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WK23PSS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<header role="banner" data-swiftype-index="false" class="global-header">
+    <!-- Skip links for accessibility with screen readers and keyboard users -->
+    <div class="container">
+        <div class="row">
+            <div class="column" style="position: relative;">
+                  <a class="skip-link" id="nav-position" href="#content">Skip to content</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="top-bar-container row column show-for-large">
+        <nav class="top-bar secondary-nav" role="navigation">
+            <div class="top-bar-right">
+                <h2 class="show-for-sr">Quick Links</h2>
+                <ul id="menu-top-nav" class="menu vertical large-horizontal"><li id="menu-item-87158" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-87158"><a href="http://neo4j.com/news/">News</a></li>
+<li id="menu-item-38286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38286"><a href="https://neo4j.com/blog/">Blog</a></li>
+<li id="menu-item-38817" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38817"><a href="https://support.neo4j.com/hc/">Support</a></li>
+<li id="menu-item-60080" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60080"><a href="https://neo4j.com/company/">Company</a></li>
+<li id="menu-item-53859" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53859"><a href="https://neo4j.com/contact-us/">Contact Us</a></li>
+<li id="menu-item-71602" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-71602"><a href="https://neo4j.com/download/">Download Neo4j</a></li>
+</ul>            </div>
+        </nav>
+    </div>
+    <div class="top-bar-container row column">
+
+        <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="large">
+            <div class="title-bar-title"><a href="https://neo4j.com"><img class="menu-logo__img" src="https://neo4j.com/wp-content/themes/neo4jweb/assets/images/neo4j-logo-2015.png" alt="The Neo4j Graph Platform – The #1 Platform for Connected Data"/></a></div>
+
+            <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+        </div>
+
+        <nav class="top-bar primary-nav" role="navigation" id="responsive-menu">
+            <h2 class="show-for-sr">Main Navigation</h2>
+            <div class="top-bar-left">
+                <ul class="menu show-for-large">
+                    <li class="menu-logo">
+                        <a href="https://neo4j.com"><img class="menu-logo__img" src="https://neo4j.com/wp-content/themes/neo4jweb/assets/images/neo4j-logo-2015.png" alt="The Neo4j Graph Platform – The #1 Platform for Connected Data"/></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="top-bar-right">
+                <ul class="menu vertical large-horizontal megamenu-wrapper" data-responsive-menu="drilldown large-dropdown" data-auto-height="true" data-parent-link="false">
+
+                    <!-- new top level menu -->
+                    <li class="has-submenu megamenu">
+                        <a href="/product/">Products</a>
+                        <ul class="submenu menu vertical submenu-wrapper" data-submenu>
+                            <div class="header-widgets-container">
+                                <div class="row">
+                                    <div class="medium-4 nav-menu-widget columns"><div class="menu-product-menu-1-container"><ul id="menu-product-menu-1" class="menu"><li id="menu-item-59148" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59148"><a href="https://neo4j.com/product/">Neo4j Graph Platform</a></li>
+<li id="menu-item-71710" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71710"><a href="https://neo4j.com/product/">Neo4j Database</a></li>
+<li id="menu-item-73007" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73007"><a href="https://neo4j.com/cypher-graph-query-language/">Cypher</a></li>
+<li id="menu-item-87884" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-87884"><a href="/graph-machine-learning-algorithms/">Graph and ML Algorithms</a></li>
+<li id="menu-item-71595" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71595"><a href="https://neo4j.com/data-integration/">Data Integration</a></li>
+<li id="menu-item-71711" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71711"><a href="https://neo4j.com/graph-visualization-neo4j/">Discovery &#038; Visualization</a></li>
+<li id="menu-item-71591" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71591"><a href="https://neo4j.com/architecture/">Enterprise Architecture</a></li>
+<li id="menu-item-71712" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71712"><a href="https://neo4j.com/download/">Developer Tools (Desktop)</a></li>
+</ul></div></div><div class="medium-4 nav-menu-widget columns"><div class="menu-product-menu-2-container"><ul id="menu-product-menu-2" class="menu"><li id="menu-item-59149" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59149"><a href="https://neo4j.com/subscriptions/">Get Neo4j</a></li>
+<li id="menu-item-71709" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71709"><a href="https://neo4j.com/top-ten-reasons/">Why Neo4j?</a></li>
+<li id="menu-item-71708" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71708"><a href="http://neo4j.com/whats-new-in-neo4j/">What&#8217;s New in Neo4j</a></li>
+<li id="menu-item-51873" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51873"><a href="https://neo4j.com/subscriptions/">Subscriptions</a></li>
+<li id="menu-item-51871" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51871"><a href="https://neo4j.com/licensing/">Licensing</a></li>
+<li id="menu-item-87955" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87955"><a href="https://neo4j.com/neo4j-cloud-services/">Neo4j in the Cloud</a></li>
+<li id="menu-item-92484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92484"><a href="https://neo4j.com/startup-program/">Neo4j Startup Program</a></li>
+<li id="menu-item-51874" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51874"><a href="https://neo4j.com/professional-services/">Professional Services</a></li>
+<li id="menu-item-71597" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71597"><a href="https://neo4j.com/open-source-project/">Open Source</a></li>
+</ul></div></div>                                </div>
+                            </div>
+                        </ul>
+                    </li>
+
+                    <li class="has-submenu megamenu">
+                        <a href="/use-cases/">Solutions</a>
+                        <ul class="submenu menu vertical submenu-wrapper" data-submenu>
+                            <div class="header-widgets-container">
+                                <div class="row">
+                                    <div class="medium-3 nav-menu-widget columns"><div class="menu-solution-menu-1-container"><ul id="menu-solution-menu-1" class="menu"><li id="menu-item-59138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59138"><a href="/use-cases/">by Use Case</a></li>
+<li id="menu-item-87883" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-87883"><a href="/use-cases/artificial-intelligence-analytics/">AI and Analytics</a></li>
+<li id="menu-item-51875" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51875"><a href="/use-cases/fraud-detection/">Fraud Detection</a></li>
+<li id="menu-item-51877" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51877"><a href="/use-cases/identity-and-access-management/">Identity and Access</a></li>
+<li id="menu-item-51876" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51876"><a href="/use-cases/knowledge-graph">Knowledge Graph</a></li>
+<li id="menu-item-51878" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51878"><a href="/use-cases/master-data-management/">Master Data Management</a></li>
+<li id="menu-item-51879" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51879"><a href="/use-cases/network-and-it-operations/">Network and IT Operations</a></li>
+<li id="menu-item-76526" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-76526"><a href="http://neo4j.com/use-cases/privacy-risk-compliance/">Privacy, Risk and Compliance</a></li>
+<li id="menu-item-51880" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51880"><a href="/use-cases/real-time-recommendation-engine/">Recommendation Engine</a></li>
+<li id="menu-item-51881" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51881"><a href="/use-cases/social-network/">Social Network</a></li>
+</ul></div></div><div class="medium-3 nav-menu-widget columns"><div class="menu-solution-menu-3-container"><ul id="menu-solution-menu-3" class="menu"><li id="menu-item-62640" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62640"><a href="/industries/retail/">by Industry</a></li>
+<li id="menu-item-72463" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-72463"><a href="/industries/financial-services/">Financial Services</a></li>
+<li id="menu-item-62641" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62641"><a href="/industries/retail/">Retail</a></li>
+<li id="menu-item-70345" class="menu-item menu-item-type-post_type menu-item-object-industries menu-item-70345"><a href="https://neo4j.com/industries/government/">Government</a></li>
+<li id="menu-item-70346" class="menu-item menu-item-type-post_type menu-item-object-industries menu-item-70346"><a href="https://neo4j.com/industries/telecom/">Telecommunications</a></li>
+</ul></div></div><div class="medium-3 nav-menu-widget columns"><div class="menu-solution-menu-2-container"><ul id="menu-solution-menu-2" class="menu"><li id="menu-item-59139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59139"><a href="/partners/oem-partner/">by Technology</a></li>
+<li id="menu-item-76076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76076"><a href="https://neo4j.com/graph-visualization-neo4j/">Graph Visualization</a></li>
+<li id="menu-item-76719" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-76719"><a href="/use-cases/gdpr-compliance/">Neo4j Privacy Shield</a></li>
+<li id="menu-item-76981" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-76981"><a href="https://neo4j.com/partners/oem-partner/">OEM Partner Solutions</a></li>
+<li id="menu-item-76075" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76075"><a href="https://neo4j.com/neo4j-on-ibm-power/">Neo4j on IBM POWER</a></li>
+</ul></div></div><div class="medium-3 nav-menu-widget columns"><div class="menu-solution-menu-4-container"><ul id="menu-solution-menu-4" class="menu"><li id="menu-item-76067" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-76067"><a href="/business-edge/">Neo4j Business Edge</a></li>
+<li id="menu-item-76071" class="menu-item menu-item-type-post_type menu-item-object-neo_business_center menu-item-76071"><a href="https://neo4j.com/business-edge/native-path-to-graph-performance/">Native Performance Path</a></li>
+<li id="menu-item-76070" class="menu-item menu-item-type-post_type menu-item-object-neo_business_center menu-item-76070"><a href="https://neo4j.com/business-edge/neo4j-production-support-success/">Neo4j Production Support</a></li>
+<li id="menu-item-76072" class="menu-item menu-item-type-post_type menu-item-object-neo_business_center menu-item-76072"><a href="https://neo4j.com/business-edge/relational-to-relationships/">Relational to Relationships</a></li>
+<li id="menu-item-76073" class="menu-item menu-item-type-post_type menu-item-object-neo_business_center menu-item-76073"><a href="https://neo4j.com/business-edge/reasons-for-using-graph-technology/">Why Use Graph Technology</a></li>
+</ul></div></div>                                </div>
+                            </div>
+                        </ul>
+                    </li>
+
+                    <li class="has-submenu megamenu">
+                        <a href="/partners/">Partners</a>
+                        <ul class="submenu menu vertical submenu-wrapper" data-submenu>
+                            <div class="header-widgets-container">
+                                <div class="row">
+                                    <div class="medium-4 nav-menu-widget columns"><div class="menu-partners-menu-1-container"><ul id="menu-partners-menu-1" class="menu"><li id="menu-item-69132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-69132"><a href="/partners/">Neo4j Partner Program</a></li>
+<li id="menu-item-69133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-69133"><a href="/partners/">Find a Partner</a></li>
+<li id="menu-item-69130" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-69130"><a href="/partners/neo4j-partner-program/">Become a Neo4j Partner</a></li>
+<li id="menu-item-69135" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-69135"><a href="/partners/oem-partner/">OEM Partner</a></li>
+</ul></div></div><div class="medium-4 nav-menu-widget columns"><div class="menu-partners-menu-2-container"><ul id="menu-partners-menu-2" class="menu"><li id="menu-item-59141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59141"><a href="https://partner.neo4j.com/portal/login-page/?wpc_to_redirect=https%3A%2F%2Fpartner.neo4j.com">Partner Portal</a></li>
+<li id="menu-item-51867" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51867"><a href="https://partner.neo4j.com/">Access the Portal</a></li>
+</ul></div></div><div class="medium-4 nav-menu-widget columns"><div class="menu-partners-menu-3-container"><ul id="menu-partners-menu-3" class="menu"><li id="menu-item-59142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59142"><a href="/ambassador/">Community</a></li>
+<li id="menu-item-57219" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57219"><a href="https://neo4j.com/ambassador/">Ambassador Program</a></li>
+</ul></div></div>                                </div>
+                            </div>
+                        </ul>
+                    </li>
+
+                    <li class="has-submenu-no megamenu">
+                        <a href="/customers/">Customers</a>
+                        <!-- <ul class="submenu menu vertical sub-menu-no dropdown-no submenu-wrapper" data-submenu>
+                            <div class="header-widgets-container">
+                                <div class="row">
+                                                                    </div>
+                            </div>
+                        </ul> -->
+                    </li>
+
+                    <li class="has-submenu megamenu">
+                        <a href="/graphacademy/">Learn</a>
+                        <ul class="submenu menu vertical submenu-wrapper" data-submenu>
+                            <div class="header-widgets-container">
+                                <div class="row">
+                                    <div class="medium-4 nav-menu-widget columns"><div class="menu-learn-menu-1-container"><ul id="menu-learn-menu-1" class="menu"><li id="menu-item-59143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59143"><a href="/graphacademy/">Learn Neo4j</a></li>
+<li id="menu-item-51850" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51850"><a href="/graphacademy/">GraphAcademy</a></li>
+<li id="menu-item-51851" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51851"><a href="https://neo4j.com/graphacademy/online-training/">Online Training</a></li>
+<li id="menu-item-51852" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51852"><a href="/graphacademy/neo4j-certification/">Neo4j Certification</a></li>
+<li id="menu-item-51853" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51853"><a href="/books/">Books</a></li>
+<li id="menu-item-54871" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-54871"><a href="https://www.youtube.com/neo4j">Videos</a></li>
+<li id="menu-item-74085" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74085"><a href="https://neo4j.com/resources/">Neo4j Resources</a></li>
+</ul></div></div><div class="medium-4 nav-menu-widget columns"><div class="menu-learn-menu-2-container"><ul id="menu-learn-menu-2" class="menu"><li id="menu-item-59144" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59144"><a href="/why-graph-databases/">Learn Graph Databases</a></li>
+<li id="menu-item-51855" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51855"><a href="/why-graph-databases/">Why Graph Databases?</a></li>
+<li id="menu-item-51856" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51856"><a href="/developer/graph-db-vs-rdbms/">Graph Database vs RDBMS</a></li>
+<li id="menu-item-54343" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54343"><a href="https://neo4j.com/graphgists/">Sample Graphs &#8211; GraphGists</a></li>
+<li id="menu-item-55793" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55793"><a href="https://neo4j.com/sandbox/">Neo4j Sandbox</a></li>
+</ul></div></div><div class="medium-4 nav-menu-widget columns"><div class="menu-learn-menu-3-container"><ul id="menu-learn-menu-3" class="menu"><li id="menu-item-59145" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59145"><a href="/events/">Events</a></li>
+<li id="menu-item-51860" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51860"><a href="/graphtour">GraphTour 2019</a></li>
+<li id="menu-item-51858" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51858"><a href="https://neo4j.com/webinars/">Neo4j Webinars</a></li>
+<li id="menu-item-51857" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51857"><a href="/events/">Event Calendar</a></li>
+</ul></div></div>                                </div>
+                            </div>
+                        </ul>
+                    </li>
+
+                    <li class="has-submenu megamenu">
+                        <a href="/developer/">Developers</a>
+                        <ul class="submenu menu vertical submenu-wrapper" data-submenu>
+                            <div class="header-widgets-container">
+                                <div class="row">
+                                    <div class="medium-4 nav-menu-widget columns"><div class="menu-developers-menu-1-container"><ul id="menu-developers-menu-1" class="menu"><li id="menu-item-59146" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59146"><a href="/developer/">Developers</a></li>
+<li id="menu-item-51828" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51828"><a href="/developer/get-started/">Get Started</a></li>
+<li id="menu-item-51829" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51829"><a href="/developer/cypher/">Cypher Query Language</a></li>
+<li id="menu-item-51830" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51830"><a href="/developer/data-modeling/">Data Modeling</a></li>
+<li id="menu-item-51831" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51831"><a href="/developer/language-guides/">Language Drivers</a></li>
+<li id="menu-item-51832" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51832"><a href="/developer/integration/">Tools &#038; Integration</a></li>
+<li id="menu-item-51833" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51833"><a href="/developer/in-production/">Neo4j in Production</a></li>
+<li id="menu-item-68111" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-68111"><a href="/startup-program/?ref=developers">Startup Program</a></li>
+</ul></div></div><div class="medium-4 nav-menu-widget columns"><div class="menu-developers-menu-2-container"><ul id="menu-developers-menu-2" class="menu"><li id="menu-item-59147" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59147"><a href="/docs/">Developer Resources</a></li>
+<li id="menu-item-77705" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77705"><a href="https://neo4j.com/docs/">Documentation</a></li>
+<li id="menu-item-55443" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-55443"><a href="/developer/kb/">Knowledge Base</a></li>
+<li id="menu-item-51835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51835"><a href="https://neo4j.com/sandbox/">Sandbox</a></li>
+<li id="menu-item-82729" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82729"><a href="https://community.neo4j.com">Community Forum</a></li>
+<li id="menu-item-51836" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51836"><a href="https://neo4j.com/graphgists/">GraphGists</a></li>
+</ul></div></div>                                </div>
+                            </div>
+                        </ul>
+                    </li>
+
+                    <!-- only shows on mobile using css -->
+                    <div class="nav-secondary-mobile hide-for-large">
+                        <hr />
+                        <ul id="menu-top-nav-1" class="menu vertical large-horizontal"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-87158"><a href="http://neo4j.com/news/">News</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38286"><a href="https://neo4j.com/blog/">Blog</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38817"><a href="https://support.neo4j.com/hc/">Support</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60080"><a href="https://neo4j.com/company/">Company</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53859"><a href="https://neo4j.com/contact-us/">Contact Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-71602"><a href="https://neo4j.com/download/">Download Neo4j</a></li>
+</ul>                    </div>
+
+                    <li class="has-form">
+                        <form role="search" method="get" id="searchform" class="searchform" action="/">
+                            <label class="show-for-sr">Search Terms</label>
+                            <input class="js-search-nav" type="text" name="s" id="s" placeholder="Search"/>
+                            <input type="image" id="searchsubmit" width="20px" src="/wp-content/themes/neo4jweb/assets/images/search-icon.svg" alt="Submit Search" />
+                        </form>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+
+<div class="marquee-neo">
+  <div class="row">
+    <div class="columns">
+      <h1 class="entry-title">Get Neo4j Desktop</h1>
+    </div>
+  </div>
+</div>
+
+<!--PAGE CONTENTS-->
+<section id="content" role="main">
+<div class="row">
+
+	<div class="medium-12 columns">
+					<article id="post-71513" class="post-71513 page type-page status-publish hentry">
+    			     			 <style>
+  .custom-form { text-align: center; width: 365px; margin: 0 auto; padding-left: 20px; }
+</style>
+
+<script src="//app-sjqe.marketo.com/js/forms2/js/forms2.js"></script>
+<script>
+MktoForms2.whenReady(function (form){
+form.onSuccess(function (values, url){
+window.parent.location.assign(url);
+return false;
+           });
+});
+</script>
+
+<script type="text/javascript">
+window.onload=function(){
+  var params=document.URL.split('?')[1];
+  if(params == undefined){
+         params = '';
+         window.location.href = "https://neo4j.com/download";
+  }
+  document.getElementById("mkto_iframe").src = 'https://go.neo4j.com/WBP-Desktop-Enterprise-Subscription.html?' + params;
+}
+</script>
+
+
+
+<script>
+
+  window.addEventListener('message', function(event) {
+    // Ignores messages from untrusted domains.
+    if (event.origin != 'https://go.neo4j.com') return;
+    console.log('data = ', event.data);
+    my_iframe_height = parseInt(event.data) + 85;
+    //console.log(my_iframe_height);
+    $('iframe#mkto_iframe').height(my_iframe_height);
+  });
+
+</script>
+
+
+
+  <div class="row">
+    <div class="medium-8 large-centered text-center medium-centered columns">
+       <h1>Get Started Now</h1>
+        <p>Please fill out this form to begin your download</p> 
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-5 medium-centered columns">
+      <div class="custom-form" id="mform"> <iframe id="mkto_iframe" src="about:blank" height="600px" frameborder="0" scrolling="no"></iframe></div>
+    </div>
+  </div>
+</section>
+<section>&nbsp;</section>    			 <div class="entry-links"></div>
+			</article>
+			</div>
+
+</div>
+</section>
+
+    <footer id="footer" data-swiftype-index="false">
+      
+<div class="footer-widgets">
+  <div class="row-1 row">
+    <div class="small-12 medium-8 columns footer-menus">
+      <div class="row-2 row">
+        <div class="footer-menu-widget small-6 medium-3 columns"><div class="menu-footer-menus-new-1-container"><ul id="menu-footer-menus-new-1" class="menu"><li id="menu-item-51837" class="extra-margin menu-item menu-item-type-custom menu-item-object-custom menu-item-51837"><a href="/product/?ref=footer">PRODUCTS</a></li>
+<li id="menu-item-51838" class="extra-margin menu-item menu-item-type-custom menu-item-object-custom menu-item-51838"><a href="/use-cases/?ref=footer">SOLUTIONS</a></li>
+<li id="menu-item-51839" class="extra-margin menu-item menu-item-type-custom menu-item-object-custom menu-item-51839"><a href="/partners/?ref=footer">PARTNERS</a></li>
+</ul></div></div><div class="footer-menu-widget small-6 medium-3 columns"><div class="menu-footer-menus-new-2-container"><ul id="menu-footer-menus-new-2" class="menu"><li id="menu-item-51840" class="extra-margin menu-item menu-item-type-custom menu-item-object-custom menu-item-51840"><a href="/customers/?ref=footer">CUSTOMERS</a></li>
+<li id="menu-item-51841" class="extra-margin menu-item menu-item-type-custom menu-item-object-custom menu-item-51841"><a href="/graphacademy/?ref=footer">LEARN</a></li>
+<li id="menu-item-51842" class="extra-margin menu-item menu-item-type-custom menu-item-object-custom menu-item-51842"><a href="/developer/get-started/?ref=footer">DEVELOPERS</a></li>
+</ul></div></div><div class="footer-menu-widget small-6 medium-3 columns"><div class="menu-footer-menus-new-3-container"><ul id="menu-footer-menus-new-3" class="menu"><li id="menu-item-81680" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81680"><a href="/why-graph-databases/?ref=footer">Why Graph Databases?</a></li>
+<li id="menu-item-51844" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51844"><a href="/developer/graph-db-vs-rdbms/?ref=footer">Graph Databases vs RDBMS</a></li>
+<li id="menu-item-81682" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81682"><a href="/whats-new-in-neo4j/?ref=footer">What&#8217;s New in Neo4j</a></li>
+<li id="menu-item-92665" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92665"><a href="https://graphdatabases.com">Graphdatabases.com</a></li>
+</ul></div></div><div class="footer-menu-widget small-6 medium-3 columns"><div class="menu-footer-menus-new-4-container"><ul id="menu-footer-menus-new-4" class="menu"><li id="menu-item-81681" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81681"><a href="/company/?ref=footer">Company</a></li>
+<li id="menu-item-51846" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51846"><a href="/news/?ref=footer">News</a></li>
+<li id="menu-item-51847" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51847"><a href="/awards/?ref=footer">Awards</a></li>
+<li id="menu-item-51848" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51848"><a href="/careers/?ref=footer">Careers</a></li>
+<li id="menu-item-51849" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51849"><a href="/staff/?ref=footer">Staff</a></li>
+</ul></div></div>      </div>
+    </div>
+    <div class="small-12 medium-4 columns"><div>			<div class="textwidget"><div class="social-icons"><a href="https://www.linkedin.com/company/neo4j" title="Neo4j on LinkedIn" target="_blank" rel="noopener noreferrer"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a>    <a  href="https://twitter.com/neo4j" title="Neo4j on Twitter" target="_blank" rel="noopener noreferrer"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a>   <a  href="https://youtube.com/neo4j" title="Neo4j on YouTube" target="_blank" rel="noopener noreferrer"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa  fa-youtube-play fa-stack-1x fa-inverse"></i></span></a>  <a  href="https://www.facebook.com/neo4j.graph.database" title="Neo4j on Facebook" target="_blank" rel="noopener noreferrer"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa  fa-facebook fa-stack-1x fa-inverse"></i></span></a>  <a  href="https://community.neo4j.com" title="Neo4j Community Forum" target="_blank" rel="noopener noreferrer"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa  fa-comments fa-stack-1x fa-inverse"></i></span></a> </div></div>
+		</div></div>
+  </div>
+  <div class="row">
+    <div><div class="small-12 medium-4 columns">			<div class="textwidget"><div class="copyright">
+<div class="logo-footer"></div>
+<p>© 2019 Neo4j, Inc.<br />
+<a href="/terms/">Terms</a> | <a href="/privacy-policy/">Privacy </a> | <a href="/sitemap/">Sitemap</a></p>
+<p>Neo4j<sup>®</sup>, Neo Technology<sup>®</sup> and Cypher<sup>®</sup><br />
+are registered trademarks<br />
+of Neo4j, Inc.</p>
+</div>
+</div>
+		</div><div class="small-12 medium-4 columns">			<div class="textwidget"><h5><a href="/contact-us?ref=footer">Contact Us &rarr;</a></h5>
+    <p>US: 1-855-636-4532<br />
+    Sweden +46 171 480 113<br />
+    UK: +44 20 3868 3223<br />
+    France:  +33 (0) 8 05 08 03 44<br />
+    Germany: +49 (0)89 26204 6300</p></div>
+		</div></div>
+  </div>
+</div>
+
+<div class="contact-bar">
+  <div class="row">
+    <div class="columns text-center">
+      <a href="tel:1.855.636.4532" class="button feature-box_button" style="margin-top:0px"><span style="color:#30333a;">Contact Sales:</span> 1.855.636.4532</a>
+      <a href="/contact-us/" class="button feature-box_button" style="margin-top:0px">Email a graph expert</a>
+    </div>
+  </div>
+</div>    </footer>
+
+<a class="exit-off-canvas"></a>
+</div>
+</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var neo_sts_params = {"engineKey":"wv4pczb-fro-K3xZczof"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://neo4j.com/wp-content/themes/neo4jweb/assets/js/dist.min.js?ver=20190510-1256'></script>
+<script type="text/plain" src="https://neo4j.com/wp-content/themes/neo4jweb/assets/js/neo_cookies.js?ver=20180420-1611" data-cookieconsent="marketing"></script>
+<script type='text/javascript' src='https://neo4j.com/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var megamenu = {"timeout":"300","interval":"100"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://neo4j.com/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=2.5.3.2'></script>
+<script type='text/javascript' src='https://neo4j.com/wp-content/plugins/megamenu-pro/assets/public.js?ver=1.7.1.1'></script>
+<script type='text/javascript' src='https://neo4j.com/wp-includes/js/wp-embed.min.js?ver=5.2'></script>
+<script>
+// @todo confirm that this can be removed
+// jQuery(document).foundation({
+//  tab: {
+//    callback : function (tab) {
+//      $(window).trigger('resize');
+//    }
+//  }
+// });
+</script>
+
+
+
+
+    <script>
+      // for auto-adjusting the height of the iframe window
+      var my_height_data;
+      window.addEventListener('message', function(event) {
+        // Ignores messages from untrusted domains.
+        if (event.origin != 'https://go.neo4j.com' && event.origin != 'https://info.neo4j.com') return;
+        my_height_data = event.data;
+        if(my_height_data.indexOf('px') !== -1) {
+           my_height_data = parseInt(my_height_data);
+           $('iframe#mkto_iframe').height(my_height_data);
+        }
+      });
+    </script>
+
+  
+ <!-- end of if is_singular etc -->
+
+<!-- Send GA ClientID to Marketo iframe --> 
+<script>
+  jQuery('#mkto_iframe').load(function() {
+    ga('create', 'UA-1192232-34', 'auto');
+      ga(function(tracker) {
+        var clientId = tracker.get('clientId');
+        var frameWindow = document.getElementById('mkto_iframe').contentWindow;
+        frameWindow.postMessage(clientId, 'https://go.neo4j.com');
+      });
+ });
+</script>
+
+</body>
+</html>

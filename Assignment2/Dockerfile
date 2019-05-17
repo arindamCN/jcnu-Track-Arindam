@@ -10,5 +10,5 @@ WORKDIR /app
 COPY requirements.txt /app/
 RUN pip3 install -r requirements.txt
 COPY . /app/
-RUN CHMOD u+x entrypoint.sh
+RUN chmod u+x entrypoint.sh
 CMD sh entrypoint.sh
