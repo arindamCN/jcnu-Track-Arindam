@@ -1,0 +1,89 @@
+swagger: "2.0"            # Swagger version
+
+info:                     # This object provides metadata about the API.
+  version: 1.0.0            
+  title: Mentors Mentees
+  description: A simple API
+
+host: 127.0.0.1:8000
+basePath: /api            # Path relative to which all API calls will be made 
+
+paths:
+
+          
+  /1:
+    post:
+      description: Add a Person to the graph
+      operationId: addPerson
+      parameters: 
+      - name: name
+        in: body
+        description: The Person JSON you want to post
+        schema: 
+          $ref: '#/definitions/Person'
+      responses:
+        '201':
+          description: Person created successfully
+          
+          
+  /2:
+    post:
+      description: Assign a Mentee to Mentor
+      operationId: addMentee
+      parameters: 
+        - name: MentorMentee
+          in: body
+          description: Mentor Mentee Person
+          schema: 
+            $ref: '#/definitions/MentorMentee'
+      
+      responses:
+        '201':
+          description: Mentee added successfully
+          
+          
+  /3:
+      post:
+        description: Get all Mentees of a Mentor
+        operationId: showMentees
+        parameters: 
+          - name: MentorM
+            in: body
+            description: Mentor Person
+            schema: 
+              $ref: '#/definitions/MentorM'
+        
+        responses:
+          '200':
+            description: See the mentees
+          
+    
+    
+definitions:
+  Person:
+    type: object
+    properties:
+      name:
+        type: string
+        description: Name of person.
+  
+  MentorMentee:
+    description: object
+    properties:
+      Mentor:
+        type: string
+        description: Mentor name
+      Mentee:
+        type: string
+        description: Mentee name
+    required:
+      - Mentor
+      - Mentee
+      
+  MentorM:
+    type: object
+    properties:
+      Mentor:
+        type: string
+        description: Name of Mentor.
+        
